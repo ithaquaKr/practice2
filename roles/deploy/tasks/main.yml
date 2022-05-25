@@ -8,7 +8,7 @@
     update: yes
 
 - name: docker-compose app
-  docker-compose:
+  docker_compose:
     project_src: "{{ docker-dir }}"
     files:
       - docker-compose.yml
