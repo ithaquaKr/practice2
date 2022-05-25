@@ -23,10 +23,11 @@
     state: latest
     update_cache: yes
   loop: "{{ docker_pkgs }}"
-  
+
 - name: Install Docker Module for Python
   pip:
     name: docker
+    executable: pip3
 
 - name: Starting & Enable docker.
   service:
