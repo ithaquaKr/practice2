@@ -1,0 +1,6 @@
+---
+- name: install & configure docker & docker-compose on Ubuntu
+  hosts: all
+  become: true
+  vars:
+  roles:
