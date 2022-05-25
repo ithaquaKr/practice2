@@ -35,7 +35,7 @@
     name: docker
     state: present
 
-- name: adding user vagrant to docker group
+- name: adding user to docker group
   user:
     name: "{{ docker_user }}"
     groups: docker
