@@ -9,6 +9,6 @@
 
 - name: docker-compose app
   docker_compose:
-    project_src: "{{ docker-dir }}"
+    project_src: "{{ docker_dir }}"
     files:
       - docker-compose.yml
