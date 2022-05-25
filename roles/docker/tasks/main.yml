@@ -35,6 +35,11 @@
     name: docker
     executable: pip3
 
+- name: Install Docker-Compose Module for Python
+  pip:
+    name: docker-compose
+    executable: pip3
+
 - name: Starting & Enable docker.
   service:
     name: docker
